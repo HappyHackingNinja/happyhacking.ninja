@@ -1,13 +1,14 @@
-# gatsby-starter-default
-The default Gatsby starter
+# Happy Hacking Gatsby
 
-For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/)
+## Gatsby
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-```
-gatsby new gatsby-example-site
-```
+### Starter
 
-## Deploy
+* [gatsby-starter-default](https://github.com/gatsbyjs/gatsby-starter-default)
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+### Plugins
+
+* [gatsby-plugin-catch-links](https://www.gatsbyjs.org/packages/gatsby-plugin-catch-links/)
+* [gatsby-plugin-typescript](https://www.gatsbyjs.org/packages/gatsby-plugin-typescript/)
+* [gatsby-source-filesystem](https://www.gatsbyjs.org/packages/gatsby-source-filesystem/)
+* [gatsby-transformer-remark](https://www.gatsbyjs.org/packages/gatsby-transformer-remark/)
