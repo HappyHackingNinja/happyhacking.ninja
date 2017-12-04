@@ -1,11 +1,12 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "happy-hacking-gatsby",
+  "description": "Personal Website Generator",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Kehao Chen <kehao.chen@happyhacking.ninja>",
   "dependencies": {
     "@types/react": "^16.0.18",
     "@types/react-dom": "^16.0.2",
+    "@types/react-helmet": "^5.0.3",
     "gatsby": "^1.9.80",
     "gatsby-link": "^1.6.23",
     "gatsby-plugin-catch-links": "^1.0.9",
