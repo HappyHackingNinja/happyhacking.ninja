@@ -1,0 +1,26 @@
+.logoPanel {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+}
+
+.logoBorder {
+	display: flex;
+	flex-direction: column-reverse;
+	width: 300px;
+	height: 300px;
+	border: solid 6px black;
+	font-size: 48pt;
+	padding: 10px 17px;
+	line-height: 105%;
+	box-sizing: border-box;
+}
+
+.logoFont {
+	font-family: arial, sans-serif;
+	font-weight:  600;
+}
