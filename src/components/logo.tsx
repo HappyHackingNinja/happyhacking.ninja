@@ -3,9 +3,9 @@ import Link from 'gatsby-link'
 import './logo.css';
 
 const Logo = () => (
-  <div className="logoPanel">
-    <div className="logoBorder">
-      <div className="logoFont">
+  <div className="logo-panel">
+    <div className="logo-border">
+      <div className="logo-font">
         Happy Hacking Ninja
       </div>
     </div>
