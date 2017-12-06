@@ -54,6 +54,7 @@ module.exports = (props: HtmlProps) => {
         />
         {props.postBodyComponents}
       </body>
+      <script type="text/javascript" src="https://quriobot.com/qb/widget/4Nog0YE544rpWJwX/9nj7qyrYlNmkgxzB"></script>
     </html>
   );
 };
