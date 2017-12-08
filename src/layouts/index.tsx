@@ -41,6 +41,7 @@ const TemplateWrapper = ({ children }) => (
       meta={[
         { name: 'description', content: 'Sample' },
         { name: 'keywords', content: 'sample, something' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1.0' },
       ]}
     />
     <div className="mdl-layout mdl-js-layout mdl-layout--fixed-header">
