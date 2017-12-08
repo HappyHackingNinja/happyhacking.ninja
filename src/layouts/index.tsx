@@ -43,16 +43,18 @@ const TemplateWrapper = ({ children }) => (
         { name: 'keywords', content: 'sample, something' },
       ]}
     />
-    <Header />
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '0px 1.0875rem 1.45rem',
-        paddingTop: 0,
-      }}
-    >
-      {children()}
+    <div className="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <header className="mdl-layout__header" style={{ background: 'none' }}>
+        <div className="mdl-layout__header-row">
+          <span className="mdl-layout-title">Hi, I am Kehao</span>
+          <div className="mdl-layout-spacer"></div>
+        </div>
+      </header>
+      <main className="mdl-layout__content">
+        <div className="page-content">
+          {children()}
+        </div>
+      </main>
     </div>
   </div>
 )
