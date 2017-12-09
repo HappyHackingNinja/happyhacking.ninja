@@ -8,11 +8,11 @@ interface SocialLinkProps {
 
 const SocialLink = ({ fontName, link }: SocialLinkProps) => (
   <a
-    className="social-link button mdl-button mdl-js-button mdl-button--icon"
+    className="button mdl-button mdl-js-button mdl-button--icon social-link"
     target="_blank"
     href={link}
   >
-    <i className={`social-link-icon fab ${fontName} fa-2x`}></i>
+    <i className={`fab ${fontName} fa-2x`}></i>
   </a>
 )
 
