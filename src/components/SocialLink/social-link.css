@@ -1,6 +1,6 @@
 .social-link {
-    height: 64px;
-    width: 64px;
+    height: 64px !important;
+    width: 64px !important;
 }
 
 .social-link svg {
