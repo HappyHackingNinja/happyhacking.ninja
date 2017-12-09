@@ -1,6 +1,6 @@
 import * as React from 'react'
 import Link from 'gatsby-link'
-import Logo from "../components/logo";
+import Logo from "../components/Logo";
 import SocialLink from "../components/SocialLink"
 
 const IndexPage = () => (
